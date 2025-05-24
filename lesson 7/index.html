@@ -6,17 +6,56 @@
 
     </head>
     <body>
+        <article>
+            <h2>HTML</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys <br>
+                 standard dummy text ever since the 1500s,<br>
+                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+        </article>
+        <details>
+            <summary>Digital School</summary>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          
+        </details>
+        <figure>
+            <img src="logo.png" alt="logo" width="450" height="300">
+            <figcaption>Fig.1 - Digital School</figcaption>
+        </figure>
         <form action="">
+            <fieldset>
+                <legend>Personal Information:</legend>
             <label for="Firstname">Firstname:</label><br>
-            <input type="text" id="Firstname" name="Firstname" placeholder="First name"><br>
+            <input type="text" id="Firstname" name="Firstname" placeholder="erion" readonly><br>
             <label for="lastname">Last Name:</label><br>
-            <input type="text" id="lastname" name="lastname" placeholder="Last Name"><br>
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" disabled><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="Email"><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
             <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" placeholder="Password"><br>
+            <input type="password" id="password" name="password" placeholder="Password" size="20" required><br>
+            <label for="radio">Gender:</label><br><br>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label><br><br>
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="swimming" name="swimming" value="Swimming">
+            <label for="swimming">Swimming</label><br>
+            <input type="checkbox" id="reading" name="reading" value="Reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="gaming" name="gaming" value="Gaming">
+            <label for="gaming">Gaming</label><br><br>
+            <select id="Pet">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="horse">Horse</option>
+                 </select><br><br>
+                 <textarea name="message" rows="10" cols="20" maxlength="50"></textarea><br><br>
             <input type="submit" id="submit" name="submit" placeholder="Submit"><br>
+            </fieldset>
+
 
 
         </form>
     </body>
+</html>
